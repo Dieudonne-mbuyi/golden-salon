@@ -1,0 +1,246 @@
+/* === Styles généraux === */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff8f0;
+    color: #333;
+    text-align: justify;
+}
+
+/* === En-tête === */
+header {
+    background: linear-gradient(90deg, #c69a00, #f0c14b, #d4af37);
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 2.2em;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+header .slogan {
+    font-style: italic;
+    font-size: 1.1em;
+    color: #fffbea;
+}
+
+/* === Navigation === */
+nav ul {
+    list-style: none;
+    margin: 20px 0 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav li {
+    margin: 8px 12px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 10px 18px;
+    border-radius: 30px;
+    transition: background 0.3s, color 0.3s;
+}
+
+nav a:hover,
+nav a.active {
+    background-color: white;
+    color: #c69a00;
+    font-weight: bold;
+}
+
+/* === Section principale === */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h2 {
+    color: #c69a00;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    max-width: 700px;
+    margin: 0 auto 30px;
+    line-height: 1.6;
+}
+
+.btn {
+    background-color: #c69a00;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.galerie {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff8e7;
+}
+
+.galerie-photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.galerie-photos img {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.galerie-photos img:hover {
+    transform: scale(1.05);
+}
+
+.btn:hover {
+    background-color: #a97c00;
+}
+
+/* === Images d'accueil === */
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.images .preview {
+    width: 320px;
+    height: 220px;
+    border-radius: 15px;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* === ACTUALITÉS PAGE === */
+.actualites {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fffaf0;
+}
+
+.actualites h1 {
+    color: #c69749;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.actualites p {
+    font-size: 1.1rem;
+    color: #444;
+    text-align: justify;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* GALERIE */
+.galerie {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff8e7;
+}
+
+.galerie h2 {
+    color: #b58938;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.galerie-photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.galerie-photos img {
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.galerie-photos img:hover {
+    transform: scale(1.05);
+}
+
+/* VIDÉO */
+.video-promo {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fefcf7;
+}
+
+.video-promo h2 {
+    color: #b58938;
+    margin-bottom: 15px;
+}
+
+.video-promo video {
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* ARTICLES */
+.articles {
+    padding: 50px 20px;
+    background-color: #fff8f1;
+    text-align: center;
+}
+
+.articles article {
+    max-width: 700px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.articles h3 {
+    color: #c69749;
+}
+
+.articles p {
+    text-align: justify;
+    color: #333;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    background-color: #c69749;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* === Pied de page === */
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9em;
+}
